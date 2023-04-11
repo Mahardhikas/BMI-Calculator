@@ -1,0 +1,127 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #BA90C6;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: lightgrey;
+    width: auto;
+    display: flex;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 18px;
+    box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.5);
+}
+
+.gender {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background: #fff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.height{
+    background: #fff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.height input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #4f7df9;
+    width: 50%;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Nunito", sans-serif;
+}
+
+.weight{
+    background: #fff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.weight input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #4f7df9;
+    width: 50%;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Nunito", sans-serif;
+}
+
+button.calculate {
+    cursor: pointer;
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    background: rgb(97,138,254,1);
+    font-size: 16px;
+    border-radius: 7px;
+    padding: 12px 0;
+    width: 100%;
+    outline: none;
+    border: none;
+    transition: all 0.5s;
+  }
+  button.calculate:hover {
+    background: #0044ff;
+  }
+
+  .result {
+    padding: 10px 20px;
+  }
+  .result p {
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 15px;
+  }
+  .result #result {
+    font-size: 36px;
+    font-weight: 900;
+    color: #4f7df9;
+    background-color: #eaeaea;
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 55px;
+    margin-bottom: 25px;
+  }
+  #comment {
+    color: #4f7df9;
+    font-weight: 800;
+  }
+
+.comment {
+    display: none;
+    border: dashed 1px;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.main{
+    margin-right: 30px;
+    padding: 10px;
+}
